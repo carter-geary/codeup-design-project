@@ -66,9 +66,6 @@ body {
 /*    !*padding: 5em;*!*/
 /*    margin: 0;*/
 /*}*/
-img {
-    border: 5px solid lightgrey;
-}
 
 /** {*/
 /*    box-sizing: border-box;*/
@@ -79,14 +76,11 @@ img {
     padding: 5px;
 }
 /* Clearfix (clear floats) */
-.row::after {
-    /*content: “”;*/
-    clear: both;
-    display: table;
-}
-img {
-    border: 5px #E6E6E6;
-}
+/*.row::after {*/
+/*    !*content: “”;*!*/
+/*    clear: both;*/
+/*    display: table;*/
+/*}*/
 a:link {
     text-decoration: none;
     color: black;
@@ -94,17 +88,38 @@ a:link {
 a:visited {
     color: black;
 }
-.circle-txt {
+.circle1-txt {
     /* (E1) CENTER TEXT IN CIRCLE */
-    position: absolute;
-    bottom: 50%;
-    width: 100%;
-    text-align: center;
+    /*position: absolute;*/
+    /*bottom: 50%;*/
+    /*width: 100%;*/
+    /*text-align: center;*/
     color: white;
-    line-height: 0;
+    /*line-height: 0;*/
+    margin: 30px 0 0 10px;
 
     /* (E2) THE FONT - NOT REALLY IMPORTANT */
     font-family: arial, sans-serif;
     font-weight: bold;
 }
+#circle2-txt {
+    color: white;
+    margin: 30px 0 0 5px;
+    font-family: "Arial Rounded MT Bold";
+}
+#circle3-txt {
+    color: white;
+    margin: 30px 0 0 5px;
+    font-family: "Arial Rounded MT Bold";
+}
+#circle4-txt {
+    color: white;
+    margin: 30px 0 0 20px;
+    font-family: "Arial Rounded MT Bold";
+}
+.column2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
 
